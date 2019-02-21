@@ -36,7 +36,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
     scaleFactor: Parameter specifying how much the image size is reduced at each image scale.
-    minNeighbors: Parameter specifying how many neighbors each candidate rectangle should have to retain it
+    minNeighbors: Parameter specifying how many neighbors each candidate rectangle should have  to retain it
 '''
 
 
