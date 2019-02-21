@@ -19,6 +19,7 @@ while cap.isOpened():
 		#fo_color=frame[y:y+h,x:x+w]
 	
 	msg="Face Detected="+str(len(faces))
+	#puttext(image,msg,(coordinate),fonttype,fontscale,fontcolor,linetype
 	cv2.putText(frame,msg,(10,50),font,1,(120,0,255),3,cv2.LINE_AA)	
 	cv2.imshow('Detect',frame)
 	#cv2.imshow('Gray',fo_gray)
@@ -37,3 +38,5 @@ cv2.destroyAllWindows()
     scaleFactor: Parameter specifying how much the image size is reduced at each image scale.
     minNeighbors: Parameter specifying how many neighbors each candidate rectangle should have to retain it
 '''
+
+
